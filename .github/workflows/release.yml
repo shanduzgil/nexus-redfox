@@ -26,7 +26,7 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - run: python -m nexus.cli scan . --format sarif --out nexus.sarif.json
       - run: python -c "from pathlib import Path; import hashlib; d=Path('dist'); (d/'SHA256SUMS').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n' for p in sorted(d.iterdir()) if p.is_file() and p.name!='SHA256SUMS'),encoding='utf-8')"
-      - uses: actions/attest-build-provenance@v2
+      - uses: actions/attest-build-provenance@v4
         with:
           subject-path: dist/*
       - uses: actions/upload-artifact@v4
