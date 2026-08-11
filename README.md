@@ -1,7 +1,3 @@
-<p align="center">
-
-  <img src="assets/logo.png" alt="NEXUS REDFOX" width="260">
-</p>
 
 
 <div align="center">
