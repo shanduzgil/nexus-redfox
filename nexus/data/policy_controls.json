@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "POL-0000",
+    "name": "Local policy control 0000",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0000 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0001",
+    "name": "Local policy control 0001",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0001 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0002",
+    "name": "Local policy control 0002",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0002 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0003",
+    "name": "Local policy control 0003",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0003 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0004",
+    "name": "Local policy control 0004",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0004 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0005",
+    "name": "Local policy control 0005",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0005 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0006",
+    "name": "Local policy control 0006",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0006 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0007",
+    "name": "Local policy control 0007",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0007 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0008",
+    "name": "Local policy control 0008",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0008 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0009",
+    "name": "Local policy control 0009",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0009 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0010",
+    "name": "Local policy control 0010",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0010 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0011",
+    "name": "Local policy control 0011",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0011 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0012",
+    "name": "Local policy control 0012",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0012 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0013",
+    "name": "Local policy control 0013",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0013 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0014",
+    "name": "Local policy control 0014",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0014 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0015",
+    "name": "Local policy control 0015",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0015 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0016",
+    "name": "Local policy control 0016",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0016 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0017",
+    "name": "Local policy control 0017",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0017 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0018",
+    "name": "Local policy control 0018",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0018 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0019",
+    "name": "Local policy control 0019",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0019 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0020",
+    "name": "Local policy control 0020",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0020 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0021",
+    "name": "Local policy control 0021",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0021 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0022",
+    "name": "Local policy control 0022",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0022 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0023",
+    "name": "Local policy control 0023",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0023 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0024",
+    "name": "Local policy control 0024",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0024 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0025",
+    "name": "Local policy control 0025",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0025 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0026",
+    "name": "Local policy control 0026",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0026 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0027",
+    "name": "Local policy control 0027",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0027 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0028",
+    "name": "Local policy control 0028",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0028 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0029",
+    "name": "Local policy control 0029",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0029 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0030",
+    "name": "Local policy control 0030",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0030 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0031",
+    "name": "Local policy control 0031",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0031 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0032",
+    "name": "Local policy control 0032",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0032 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0033",
+    "name": "Local policy control 0033",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0033 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0034",
+    "name": "Local policy control 0034",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0034 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0035",
+    "name": "Local policy control 0035",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0035 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0036",
+    "name": "Local policy control 0036",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0036 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0037",
+    "name": "Local policy control 0037",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0037 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0038",
+    "name": "Local policy control 0038",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0038 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0039",
+    "name": "Local policy control 0039",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0039 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0040",
+    "name": "Local policy control 0040",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0040 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0041",
+    "name": "Local policy control 0041",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0041 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0042",
+    "name": "Local policy control 0042",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0042 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0043",
+    "name": "Local policy control 0043",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0043 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0044",
+    "name": "Local policy control 0044",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0044 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0045",
+    "name": "Local policy control 0045",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0045 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0046",
+    "name": "Local policy control 0046",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0046 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0047",
+    "name": "Local policy control 0047",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0047 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0048",
+    "name": "Local policy control 0048",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0048 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0049",
+    "name": "Local policy control 0049",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0049 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0050",
+    "name": "Local policy control 0050",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0050 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0051",
+    "name": "Local policy control 0051",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0051 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0052",
+    "name": "Local policy control 0052",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0052 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0053",
+    "name": "Local policy control 0053",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0053 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0054",
+    "name": "Local policy control 0054",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0054 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0055",
+    "name": "Local policy control 0055",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0055 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0056",
+    "name": "Local policy control 0056",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0056 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0057",
+    "name": "Local policy control 0057",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0057 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0058",
+    "name": "Local policy control 0058",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0058 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0059",
+    "name": "Local policy control 0059",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0059 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0060",
+    "name": "Local policy control 0060",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0060 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0061",
+    "name": "Local policy control 0061",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0061 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0062",
+    "name": "Local policy control 0062",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0062 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0063",
+    "name": "Local policy control 0063",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0063 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0064",
+    "name": "Local policy control 0064",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0064 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0065",
+    "name": "Local policy control 0065",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0065 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0066",
+    "name": "Local policy control 0066",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0066 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0067",
+    "name": "Local policy control 0067",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0067 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0068",
+    "name": "Local policy control 0068",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0068 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0069",
+    "name": "Local policy control 0069",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0069 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0070",
+    "name": "Local policy control 0070",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0070 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0071",
+    "name": "Local policy control 0071",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0071 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0072",
+    "name": "Local policy control 0072",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0072 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0073",
+    "name": "Local policy control 0073",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0073 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0074",
+    "name": "Local policy control 0074",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0074 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0075",
+    "name": "Local policy control 0075",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0075 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0076",
+    "name": "Local policy control 0076",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0076 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0077",
+    "name": "Local policy control 0077",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0077 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0078",
+    "name": "Local policy control 0078",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0078 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0079",
+    "name": "Local policy control 0079",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0079 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0080",
+    "name": "Local policy control 0080",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0080 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0081",
+    "name": "Local policy control 0081",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0081 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0082",
+    "name": "Local policy control 0082",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0082 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0083",
+    "name": "Local policy control 0083",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0083 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0084",
+    "name": "Local policy control 0084",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0084 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0085",
+    "name": "Local policy control 0085",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0085 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0086",
+    "name": "Local policy control 0086",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0086 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0087",
+    "name": "Local policy control 0087",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0087 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0088",
+    "name": "Local policy control 0088",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0088 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0089",
+    "name": "Local policy control 0089",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0089 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0090",
+    "name": "Local policy control 0090",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0090 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0091",
+    "name": "Local policy control 0091",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0091 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0092",
+    "name": "Local policy control 0092",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0092 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0093",
+    "name": "Local policy control 0093",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0093 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0094",
+    "name": "Local policy control 0094",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0094 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0095",
+    "name": "Local policy control 0095",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0095 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0096",
+    "name": "Local policy control 0096",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0096 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0097",
+    "name": "Local policy control 0097",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0097 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0098",
+    "name": "Local policy control 0098",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0098 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0099",
+    "name": "Local policy control 0099",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0099 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0100",
+    "name": "Local policy control 0100",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0100 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0101",
+    "name": "Local policy control 0101",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0101 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0102",
+    "name": "Local policy control 0102",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0102 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0103",
+    "name": "Local policy control 0103",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0103 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0104",
+    "name": "Local policy control 0104",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0104 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0105",
+    "name": "Local policy control 0105",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0105 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0106",
+    "name": "Local policy control 0106",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0106 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0107",
+    "name": "Local policy control 0107",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0107 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0108",
+    "name": "Local policy control 0108",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0108 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0109",
+    "name": "Local policy control 0109",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0109 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0110",
+    "name": "Local policy control 0110",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0110 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0111",
+    "name": "Local policy control 0111",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0111 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0112",
+    "name": "Local policy control 0112",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0112 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0113",
+    "name": "Local policy control 0113",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0113 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0114",
+    "name": "Local policy control 0114",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0114 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0115",
+    "name": "Local policy control 0115",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0115 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0116",
+    "name": "Local policy control 0116",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0116 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0117",
+    "name": "Local policy control 0117",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0117 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0118",
+    "name": "Local policy control 0118",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0118 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0119",
+    "name": "Local policy control 0119",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0119 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0120",
+    "name": "Local policy control 0120",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0120 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0121",
+    "name": "Local policy control 0121",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0121 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0122",
+    "name": "Local policy control 0122",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0122 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0123",
+    "name": "Local policy control 0123",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0123 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0124",
+    "name": "Local policy control 0124",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0124 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0125",
+    "name": "Local policy control 0125",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0125 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0126",
+    "name": "Local policy control 0126",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0126 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0127",
+    "name": "Local policy control 0127",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0127 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0128",
+    "name": "Local policy control 0128",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0128 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0129",
+    "name": "Local policy control 0129",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0129 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0130",
+    "name": "Local policy control 0130",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0130 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0131",
+    "name": "Local policy control 0131",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0131 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0132",
+    "name": "Local policy control 0132",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0132 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0133",
+    "name": "Local policy control 0133",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0133 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0134",
+    "name": "Local policy control 0134",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0134 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0135",
+    "name": "Local policy control 0135",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0135 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0136",
+    "name": "Local policy control 0136",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0136 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0137",
+    "name": "Local policy control 0137",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0137 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0138",
+    "name": "Local policy control 0138",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0138 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0139",
+    "name": "Local policy control 0139",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0139 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0140",
+    "name": "Local policy control 0140",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0140 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0141",
+    "name": "Local policy control 0141",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0141 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0142",
+    "name": "Local policy control 0142",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0142 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0143",
+    "name": "Local policy control 0143",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0143 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0144",
+    "name": "Local policy control 0144",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0144 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0145",
+    "name": "Local policy control 0145",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0145 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0146",
+    "name": "Local policy control 0146",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0146 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0147",
+    "name": "Local policy control 0147",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0147 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0148",
+    "name": "Local policy control 0148",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0148 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0149",
+    "name": "Local policy control 0149",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0149 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0150",
+    "name": "Local policy control 0150",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0150 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0151",
+    "name": "Local policy control 0151",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0151 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0152",
+    "name": "Local policy control 0152",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0152 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0153",
+    "name": "Local policy control 0153",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0153 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0154",
+    "name": "Local policy control 0154",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0154 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0155",
+    "name": "Local policy control 0155",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0155 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0156",
+    "name": "Local policy control 0156",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0156 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0157",
+    "name": "Local policy control 0157",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0157 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0158",
+    "name": "Local policy control 0158",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0158 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0159",
+    "name": "Local policy control 0159",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0159 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0160",
+    "name": "Local policy control 0160",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0160 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0161",
+    "name": "Local policy control 0161",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0161 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0162",
+    "name": "Local policy control 0162",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0162 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0163",
+    "name": "Local policy control 0163",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0163 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0164",
+    "name": "Local policy control 0164",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0164 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0165",
+    "name": "Local policy control 0165",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0165 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0166",
+    "name": "Local policy control 0166",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0166 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0167",
+    "name": "Local policy control 0167",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0167 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0168",
+    "name": "Local policy control 0168",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0168 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0169",
+    "name": "Local policy control 0169",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0169 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0170",
+    "name": "Local policy control 0170",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0170 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0171",
+    "name": "Local policy control 0171",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0171 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0172",
+    "name": "Local policy control 0172",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0172 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0173",
+    "name": "Local policy control 0173",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0173 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0174",
+    "name": "Local policy control 0174",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0174 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0175",
+    "name": "Local policy control 0175",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0175 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0176",
+    "name": "Local policy control 0176",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0176 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0177",
+    "name": "Local policy control 0177",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0177 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0178",
+    "name": "Local policy control 0178",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0178 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0179",
+    "name": "Local policy control 0179",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0179 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0180",
+    "name": "Local policy control 0180",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0180 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0181",
+    "name": "Local policy control 0181",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0181 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0182",
+    "name": "Local policy control 0182",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0182 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0183",
+    "name": "Local policy control 0183",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0183 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0184",
+    "name": "Local policy control 0184",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0184 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0185",
+    "name": "Local policy control 0185",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0185 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0186",
+    "name": "Local policy control 0186",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0186 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0187",
+    "name": "Local policy control 0187",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0187 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0188",
+    "name": "Local policy control 0188",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0188 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0189",
+    "name": "Local policy control 0189",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0189 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0190",
+    "name": "Local policy control 0190",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0190 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0191",
+    "name": "Local policy control 0191",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0191 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0192",
+    "name": "Local policy control 0192",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0192 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0193",
+    "name": "Local policy control 0193",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0193 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0194",
+    "name": "Local policy control 0194",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0194 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0195",
+    "name": "Local policy control 0195",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0195 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0196",
+    "name": "Local policy control 0196",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0196 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0197",
+    "name": "Local policy control 0197",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0197 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0198",
+    "name": "Local policy control 0198",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0198 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0199",
+    "name": "Local policy control 0199",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0199 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0200",
+    "name": "Local policy control 0200",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0200 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0201",
+    "name": "Local policy control 0201",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0201 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0202",
+    "name": "Local policy control 0202",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0202 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0203",
+    "name": "Local policy control 0203",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0203 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0204",
+    "name": "Local policy control 0204",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0204 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0205",
+    "name": "Local policy control 0205",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0205 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0206",
+    "name": "Local policy control 0206",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0206 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0207",
+    "name": "Local policy control 0207",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0207 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0208",
+    "name": "Local policy control 0208",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0208 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0209",
+    "name": "Local policy control 0209",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0209 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0210",
+    "name": "Local policy control 0210",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0210 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0211",
+    "name": "Local policy control 0211",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0211 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0212",
+    "name": "Local policy control 0212",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0212 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0213",
+    "name": "Local policy control 0213",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0213 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0214",
+    "name": "Local policy control 0214",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0214 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0215",
+    "name": "Local policy control 0215",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0215 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0216",
+    "name": "Local policy control 0216",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0216 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0217",
+    "name": "Local policy control 0217",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0217 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0218",
+    "name": "Local policy control 0218",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0218 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0219",
+    "name": "Local policy control 0219",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0219 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0220",
+    "name": "Local policy control 0220",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0220 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0221",
+    "name": "Local policy control 0221",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0221 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0222",
+    "name": "Local policy control 0222",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0222 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0223",
+    "name": "Local policy control 0223",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0223 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0224",
+    "name": "Local policy control 0224",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0224 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0225",
+    "name": "Local policy control 0225",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0225 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0226",
+    "name": "Local policy control 0226",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0226 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0227",
+    "name": "Local policy control 0227",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0227 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0228",
+    "name": "Local policy control 0228",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0228 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0229",
+    "name": "Local policy control 0229",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0229 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0230",
+    "name": "Local policy control 0230",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0230 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0231",
+    "name": "Local policy control 0231",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0231 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0232",
+    "name": "Local policy control 0232",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0232 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0233",
+    "name": "Local policy control 0233",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0233 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0234",
+    "name": "Local policy control 0234",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0234 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0235",
+    "name": "Local policy control 0235",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0235 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0236",
+    "name": "Local policy control 0236",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0236 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0237",
+    "name": "Local policy control 0237",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0237 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0238",
+    "name": "Local policy control 0238",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0238 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0239",
+    "name": "Local policy control 0239",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0239 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0240",
+    "name": "Local policy control 0240",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0240 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0241",
+    "name": "Local policy control 0241",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0241 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0242",
+    "name": "Local policy control 0242",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0242 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0243",
+    "name": "Local policy control 0243",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0243 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0244",
+    "name": "Local policy control 0244",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0244 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0245",
+    "name": "Local policy control 0245",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0245 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0246",
+    "name": "Local policy control 0246",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0246 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0247",
+    "name": "Local policy control 0247",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0247 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0248",
+    "name": "Local policy control 0248",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0248 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0249",
+    "name": "Local policy control 0249",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0249 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0250",
+    "name": "Local policy control 0250",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0250 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0251",
+    "name": "Local policy control 0251",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0251 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0252",
+    "name": "Local policy control 0252",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0252 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0253",
+    "name": "Local policy control 0253",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0253 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0254",
+    "name": "Local policy control 0254",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0254 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0255",
+    "name": "Local policy control 0255",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0255 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0256",
+    "name": "Local policy control 0256",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0256 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0257",
+    "name": "Local policy control 0257",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0257 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0258",
+    "name": "Local policy control 0258",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0258 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0259",
+    "name": "Local policy control 0259",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0259 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0260",
+    "name": "Local policy control 0260",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0260 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0261",
+    "name": "Local policy control 0261",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0261 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0262",
+    "name": "Local policy control 0262",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0262 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0263",
+    "name": "Local policy control 0263",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0263 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0264",
+    "name": "Local policy control 0264",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0264 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0265",
+    "name": "Local policy control 0265",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0265 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0266",
+    "name": "Local policy control 0266",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0266 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0267",
+    "name": "Local policy control 0267",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0267 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0268",
+    "name": "Local policy control 0268",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0268 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0269",
+    "name": "Local policy control 0269",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0269 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0270",
+    "name": "Local policy control 0270",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0270 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0271",
+    "name": "Local policy control 0271",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0271 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0272",
+    "name": "Local policy control 0272",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0272 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0273",
+    "name": "Local policy control 0273",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0273 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0274",
+    "name": "Local policy control 0274",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0274 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0275",
+    "name": "Local policy control 0275",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0275 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0276",
+    "name": "Local policy control 0276",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0276 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0277",
+    "name": "Local policy control 0277",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0277 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0278",
+    "name": "Local policy control 0278",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0278 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0279",
+    "name": "Local policy control 0279",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0279 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0280",
+    "name": "Local policy control 0280",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0280 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0281",
+    "name": "Local policy control 0281",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0281 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0282",
+    "name": "Local policy control 0282",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0282 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0283",
+    "name": "Local policy control 0283",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0283 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0284",
+    "name": "Local policy control 0284",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0284 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0285",
+    "name": "Local policy control 0285",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0285 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0286",
+    "name": "Local policy control 0286",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0286 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0287",
+    "name": "Local policy control 0287",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0287 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0288",
+    "name": "Local policy control 0288",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0288 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0289",
+    "name": "Local policy control 0289",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0289 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0290",
+    "name": "Local policy control 0290",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0290 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0291",
+    "name": "Local policy control 0291",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0291 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0292",
+    "name": "Local policy control 0292",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0292 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0293",
+    "name": "Local policy control 0293",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0293 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0294",
+    "name": "Local policy control 0294",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0294 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0295",
+    "name": "Local policy control 0295",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0295 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0296",
+    "name": "Local policy control 0296",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0296 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0297",
+    "name": "Local policy control 0297",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0297 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0298",
+    "name": "Local policy control 0298",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0298 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0299",
+    "name": "Local policy control 0299",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0299 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0300",
+    "name": "Local policy control 0300",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0300 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0301",
+    "name": "Local policy control 0301",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0301 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0302",
+    "name": "Local policy control 0302",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0302 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0303",
+    "name": "Local policy control 0303",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0303 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0304",
+    "name": "Local policy control 0304",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0304 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0305",
+    "name": "Local policy control 0305",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0305 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0306",
+    "name": "Local policy control 0306",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0306 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0307",
+    "name": "Local policy control 0307",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0307 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0308",
+    "name": "Local policy control 0308",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0308 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0309",
+    "name": "Local policy control 0309",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0309 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0310",
+    "name": "Local policy control 0310",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0310 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0311",
+    "name": "Local policy control 0311",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0311 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0312",
+    "name": "Local policy control 0312",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0312 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0313",
+    "name": "Local policy control 0313",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0313 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0314",
+    "name": "Local policy control 0314",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0314 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0315",
+    "name": "Local policy control 0315",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0315 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0316",
+    "name": "Local policy control 0316",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0316 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0317",
+    "name": "Local policy control 0317",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0317 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0318",
+    "name": "Local policy control 0318",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0318 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0319",
+    "name": "Local policy control 0319",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0319 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0320",
+    "name": "Local policy control 0320",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0320 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0321",
+    "name": "Local policy control 0321",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0321 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0322",
+    "name": "Local policy control 0322",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0322 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0323",
+    "name": "Local policy control 0323",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0323 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0324",
+    "name": "Local policy control 0324",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0324 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0325",
+    "name": "Local policy control 0325",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0325 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0326",
+    "name": "Local policy control 0326",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0326 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0327",
+    "name": "Local policy control 0327",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0327 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0328",
+    "name": "Local policy control 0328",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0328 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0329",
+    "name": "Local policy control 0329",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0329 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0330",
+    "name": "Local policy control 0330",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0330 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0331",
+    "name": "Local policy control 0331",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0331 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0332",
+    "name": "Local policy control 0332",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0332 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0333",
+    "name": "Local policy control 0333",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0333 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0334",
+    "name": "Local policy control 0334",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0334 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0335",
+    "name": "Local policy control 0335",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0335 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0336",
+    "name": "Local policy control 0336",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0336 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0337",
+    "name": "Local policy control 0337",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0337 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0338",
+    "name": "Local policy control 0338",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0338 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0339",
+    "name": "Local policy control 0339",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0339 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0340",
+    "name": "Local policy control 0340",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0340 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0341",
+    "name": "Local policy control 0341",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0341 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0342",
+    "name": "Local policy control 0342",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0342 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0343",
+    "name": "Local policy control 0343",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0343 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0344",
+    "name": "Local policy control 0344",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0344 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0345",
+    "name": "Local policy control 0345",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0345 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0346",
+    "name": "Local policy control 0346",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0346 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0347",
+    "name": "Local policy control 0347",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0347 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0348",
+    "name": "Local policy control 0348",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0348 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0349",
+    "name": "Local policy control 0349",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0349 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0350",
+    "name": "Local policy control 0350",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0350 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0351",
+    "name": "Local policy control 0351",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0351 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0352",
+    "name": "Local policy control 0352",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0352 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0353",
+    "name": "Local policy control 0353",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0353 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0354",
+    "name": "Local policy control 0354",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0354 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0355",
+    "name": "Local policy control 0355",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0355 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0356",
+    "name": "Local policy control 0356",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0356 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0357",
+    "name": "Local policy control 0357",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0357 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0358",
+    "name": "Local policy control 0358",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0358 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0359",
+    "name": "Local policy control 0359",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0359 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0360",
+    "name": "Local policy control 0360",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0360 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0361",
+    "name": "Local policy control 0361",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0361 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0362",
+    "name": "Local policy control 0362",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0362 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0363",
+    "name": "Local policy control 0363",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0363 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0364",
+    "name": "Local policy control 0364",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0364 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0365",
+    "name": "Local policy control 0365",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0365 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0366",
+    "name": "Local policy control 0366",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0366 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0367",
+    "name": "Local policy control 0367",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0367 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0368",
+    "name": "Local policy control 0368",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0368 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0369",
+    "name": "Local policy control 0369",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0369 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0370",
+    "name": "Local policy control 0370",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0370 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0371",
+    "name": "Local policy control 0371",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0371 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0372",
+    "name": "Local policy control 0372",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0372 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0373",
+    "name": "Local policy control 0373",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0373 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0374",
+    "name": "Local policy control 0374",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0374 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0375",
+    "name": "Local policy control 0375",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0375 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0376",
+    "name": "Local policy control 0376",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0376 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0377",
+    "name": "Local policy control 0377",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0377 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0378",
+    "name": "Local policy control 0378",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0378 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0379",
+    "name": "Local policy control 0379",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0379 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0380",
+    "name": "Local policy control 0380",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0380 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0381",
+    "name": "Local policy control 0381",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0381 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0382",
+    "name": "Local policy control 0382",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0382 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0383",
+    "name": "Local policy control 0383",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0383 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0384",
+    "name": "Local policy control 0384",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0384 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0385",
+    "name": "Local policy control 0385",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0385 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0386",
+    "name": "Local policy control 0386",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0386 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0387",
+    "name": "Local policy control 0387",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0387 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0388",
+    "name": "Local policy control 0388",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0388 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0389",
+    "name": "Local policy control 0389",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0389 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0390",
+    "name": "Local policy control 0390",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0390 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0391",
+    "name": "Local policy control 0391",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0391 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0392",
+    "name": "Local policy control 0392",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0392 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0393",
+    "name": "Local policy control 0393",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0393 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0394",
+    "name": "Local policy control 0394",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0394 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0395",
+    "name": "Local policy control 0395",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0395 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0396",
+    "name": "Local policy control 0396",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0396 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0397",
+    "name": "Local policy control 0397",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0397 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0398",
+    "name": "Local policy control 0398",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0398 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0399",
+    "name": "Local policy control 0399",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0399 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0400",
+    "name": "Local policy control 0400",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0400 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0401",
+    "name": "Local policy control 0401",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0401 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0402",
+    "name": "Local policy control 0402",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0402 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0403",
+    "name": "Local policy control 0403",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0403 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0404",
+    "name": "Local policy control 0404",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0404 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0405",
+    "name": "Local policy control 0405",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0405 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0406",
+    "name": "Local policy control 0406",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0406 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0407",
+    "name": "Local policy control 0407",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0407 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0408",
+    "name": "Local policy control 0408",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0408 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0409",
+    "name": "Local policy control 0409",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0409 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0410",
+    "name": "Local policy control 0410",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0410 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0411",
+    "name": "Local policy control 0411",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0411 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0412",
+    "name": "Local policy control 0412",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0412 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0413",
+    "name": "Local policy control 0413",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0413 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0414",
+    "name": "Local policy control 0414",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0414 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0415",
+    "name": "Local policy control 0415",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0415 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0416",
+    "name": "Local policy control 0416",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0416 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0417",
+    "name": "Local policy control 0417",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0417 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0418",
+    "name": "Local policy control 0418",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0418 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0419",
+    "name": "Local policy control 0419",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0419 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0420",
+    "name": "Local policy control 0420",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0420 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0421",
+    "name": "Local policy control 0421",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0421 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0422",
+    "name": "Local policy control 0422",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0422 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0423",
+    "name": "Local policy control 0423",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0423 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0424",
+    "name": "Local policy control 0424",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0424 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0425",
+    "name": "Local policy control 0425",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0425 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0426",
+    "name": "Local policy control 0426",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0426 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0427",
+    "name": "Local policy control 0427",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0427 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0428",
+    "name": "Local policy control 0428",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0428 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0429",
+    "name": "Local policy control 0429",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0429 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0430",
+    "name": "Local policy control 0430",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0430 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0431",
+    "name": "Local policy control 0431",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0431 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0432",
+    "name": "Local policy control 0432",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0432 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0433",
+    "name": "Local policy control 0433",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0433 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0434",
+    "name": "Local policy control 0434",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0434 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0435",
+    "name": "Local policy control 0435",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0435 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0436",
+    "name": "Local policy control 0436",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0436 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0437",
+    "name": "Local policy control 0437",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0437 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0438",
+    "name": "Local policy control 0438",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0438 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0439",
+    "name": "Local policy control 0439",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0439 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0440",
+    "name": "Local policy control 0440",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0440 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0441",
+    "name": "Local policy control 0441",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0441 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0442",
+    "name": "Local policy control 0442",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0442 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0443",
+    "name": "Local policy control 0443",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0443 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0444",
+    "name": "Local policy control 0444",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0444 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0445",
+    "name": "Local policy control 0445",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0445 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0446",
+    "name": "Local policy control 0446",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0446 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0447",
+    "name": "Local policy control 0447",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0447 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0448",
+    "name": "Local policy control 0448",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0448 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0449",
+    "name": "Local policy control 0449",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0449 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0450",
+    "name": "Local policy control 0450",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0450 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0451",
+    "name": "Local policy control 0451",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0451 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0452",
+    "name": "Local policy control 0452",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0452 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0453",
+    "name": "Local policy control 0453",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0453 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0454",
+    "name": "Local policy control 0454",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0454 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0455",
+    "name": "Local policy control 0455",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0455 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0456",
+    "name": "Local policy control 0456",
+    "severity": "info",
+    "scope": "json",
+    "requirement": "Control requirement 0456 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0457",
+    "name": "Local policy control 0457",
+    "severity": "low",
+    "scope": "toml",
+    "requirement": "Control requirement 0457 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0458",
+    "name": "Local policy control 0458",
+    "severity": "medium",
+    "scope": "sql",
+    "requirement": "Control requirement 0458 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0459",
+    "name": "Local policy control 0459",
+    "severity": "high",
+    "scope": "html",
+    "requirement": "Control requirement 0459 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0460",
+    "name": "Local policy control 0460",
+    "severity": "info",
+    "scope": "css",
+    "requirement": "Control requirement 0460 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0461",
+    "name": "Local policy control 0461",
+    "severity": "low",
+    "scope": "special",
+    "requirement": "Control requirement 0461 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0462",
+    "name": "Local policy control 0462",
+    "severity": "medium",
+    "scope": "python",
+    "requirement": "Control requirement 0462 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0463",
+    "name": "Local policy control 0463",
+    "severity": "high",
+    "scope": "javascript",
+    "requirement": "Control requirement 0463 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0464",
+    "name": "Local policy control 0464",
+    "severity": "info",
+    "scope": "typescript",
+    "requirement": "Control requirement 0464 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0465",
+    "name": "Local policy control 0465",
+    "severity": "low",
+    "scope": "java",
+    "requirement": "Control requirement 0465 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0466",
+    "name": "Local policy control 0466",
+    "severity": "medium",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0466 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0467",
+    "name": "Local policy control 0467",
+    "severity": "high",
+    "scope": "go",
+    "requirement": "Control requirement 0467 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0468",
+    "name": "Local policy control 0468",
+    "severity": "info",
+    "scope": "rust",
+    "requirement": "Control requirement 0468 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0469",
+    "name": "Local policy control 0469",
+    "severity": "low",
+    "scope": "ruby",
+    "requirement": "Control requirement 0469 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0470",
+    "name": "Local policy control 0470",
+    "severity": "medium",
+    "scope": "php",
+    "requirement": "Control requirement 0470 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0471",
+    "name": "Local policy control 0471",
+    "severity": "high",
+    "scope": "c",
+    "requirement": "Control requirement 0471 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0472",
+    "name": "Local policy control 0472",
+    "severity": "info",
+    "scope": "cpp",
+    "requirement": "Control requirement 0472 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0473",
+    "name": "Local policy control 0473",
+    "severity": "low",
+    "scope": "csharp",
+    "requirement": "Control requirement 0473 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0474",
+    "name": "Local policy control 0474",
+    "severity": "medium",
+    "scope": "swift",
+    "requirement": "Control requirement 0474 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0475",
+    "name": "Local policy control 0475",
+    "severity": "high",
+    "scope": "scala",
+    "requirement": "Control requirement 0475 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0476",
+    "name": "Local policy control 0476",
+    "severity": "info",
+    "scope": "shell",
+    "requirement": "Control requirement 0476 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0477",
+    "name": "Local policy control 0477",
+    "severity": "low",
+    "scope": "yaml",
+    "requirement": "Control requirement 0477 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0478",
+    "name": "Local policy control 0478",
+    "severity": "medium",
+    "scope": "json",
+    "requirement": "Control requirement 0478 for json",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0479",
+    "name": "Local policy control 0479",
+    "severity": "high",
+    "scope": "toml",
+    "requirement": "Control requirement 0479 for toml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0480",
+    "name": "Local policy control 0480",
+    "severity": "info",
+    "scope": "sql",
+    "requirement": "Control requirement 0480 for sql",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0481",
+    "name": "Local policy control 0481",
+    "severity": "low",
+    "scope": "html",
+    "requirement": "Control requirement 0481 for html",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0482",
+    "name": "Local policy control 0482",
+    "severity": "medium",
+    "scope": "css",
+    "requirement": "Control requirement 0482 for css",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0483",
+    "name": "Local policy control 0483",
+    "severity": "high",
+    "scope": "special",
+    "requirement": "Control requirement 0483 for special",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0484",
+    "name": "Local policy control 0484",
+    "severity": "info",
+    "scope": "python",
+    "requirement": "Control requirement 0484 for python",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0485",
+    "name": "Local policy control 0485",
+    "severity": "low",
+    "scope": "javascript",
+    "requirement": "Control requirement 0485 for javascript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0486",
+    "name": "Local policy control 0486",
+    "severity": "medium",
+    "scope": "typescript",
+    "requirement": "Control requirement 0486 for typescript",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0487",
+    "name": "Local policy control 0487",
+    "severity": "high",
+    "scope": "java",
+    "requirement": "Control requirement 0487 for java",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0488",
+    "name": "Local policy control 0488",
+    "severity": "info",
+    "scope": "kotlin",
+    "requirement": "Control requirement 0488 for kotlin",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0489",
+    "name": "Local policy control 0489",
+    "severity": "low",
+    "scope": "go",
+    "requirement": "Control requirement 0489 for go",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0490",
+    "name": "Local policy control 0490",
+    "severity": "medium",
+    "scope": "rust",
+    "requirement": "Control requirement 0490 for rust",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0491",
+    "name": "Local policy control 0491",
+    "severity": "high",
+    "scope": "ruby",
+    "requirement": "Control requirement 0491 for ruby",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0492",
+    "name": "Local policy control 0492",
+    "severity": "info",
+    "scope": "php",
+    "requirement": "Control requirement 0492 for php",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0493",
+    "name": "Local policy control 0493",
+    "severity": "low",
+    "scope": "c",
+    "requirement": "Control requirement 0493 for c",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0494",
+    "name": "Local policy control 0494",
+    "severity": "medium",
+    "scope": "cpp",
+    "requirement": "Control requirement 0494 for cpp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0495",
+    "name": "Local policy control 0495",
+    "severity": "high",
+    "scope": "csharp",
+    "requirement": "Control requirement 0495 for csharp",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0496",
+    "name": "Local policy control 0496",
+    "severity": "info",
+    "scope": "swift",
+    "requirement": "Control requirement 0496 for swift",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0497",
+    "name": "Local policy control 0497",
+    "severity": "low",
+    "scope": "scala",
+    "requirement": "Control requirement 0497 for scala",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0498",
+    "name": "Local policy control 0498",
+    "severity": "medium",
+    "scope": "shell",
+    "requirement": "Control requirement 0498 for shell",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  },
+  {
+    "id": "POL-0499",
+    "name": "Local policy control 0499",
+    "severity": "high",
+    "scope": "yaml",
+    "requirement": "Control requirement 0499 for yaml",
+    "review": "Validate least privilege, input handling, output encoding, authentication, authorization, transport security, and dependency hygiene."
+  }
+]

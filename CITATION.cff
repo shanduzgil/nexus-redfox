@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: NEXUS
+version: 0.2.0
+date-released: 2026-08-12
+repository-code: https://github.com/shanduzgil/nexus
+url: https://github.com/shanduzgil/nexus
+authors:
+  - family-names: Shanduzgil
+    given-names: Project
+license: Apache-2.0

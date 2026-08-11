@@ -1,0 +1,10 @@
+services:
+  nexus:
+    build: .
+    ports:
+      - "8765:8765"
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true

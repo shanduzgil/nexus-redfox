@@ -1,0 +1,18 @@
+{
+  "format": "nexus-provenance-1",
+  "project": "NEXUS",
+  "version": "0.2.0",
+  "codename": "REDFOX",
+  "root_hash": "3029699b88fbcb3f1a600e0e04c32a9ea48306b727e0cb28cfecbef76150fdf0",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "wheel": {
+    "path": "dist/nexus_redfox-0.2.0-py3-none-any.whl",
+    "sha256": "f513d9bfd70a13e1d7d967e299979036872c25b616852b6a469e7fe6fc8195a9",
+    "size": 286958
+  },
+  "notes": [
+    "Release manifest hashes every distributed source, data, documentation, workflow and wheel file except the manifest, checksum list and provenance record themselves.",
+    "GitHub release workflow is configured to generate build provenance attestations for release artifacts."
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "format": "nexus-release-manifest-1",
+  "project": "NEXUS",
+  "version": "0.2.0",
+  "codename": "REDFOX",
+  "created_utc": "2026-08-11T22:43:39.130195+00:00",
+  "root_hash": "3029699b88fbcb3f1a600e0e04c32a9ea48306b727e0cb28cfecbef76150fdf0",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "sha256": "0d6fad3fd4e7046d9f722be4fdfc436466c598c86e4c5e82148f6394c4f17f9c",
+      "size": 114
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha256": "b59ec170abfa049555ebc22a893556efea1061938dc7756b214759ecc02f505e",
+      "size": 14
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug.yml",
+      "sha256": "c95e887073e6fbfd6984ac8af7990cf1e3e81fca1f8fc2a7bf5ee148a9063147",
+      "size": 233
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha256": "eada67e1b7f73d16a4c240ede6193c4852a2b0887e678a23dc7a3462810502e7",
+      "size": 112
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "ae6efd97743c71cb900f030cfb9c00fc46e3c9bca7feb1b93dbd2fbcb5a33050",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "f8e3fcff71877dc4c1f2cb32b681f3b312b2b9cb1b9c515adbd897090a7ea774",
+      "size": 1198
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "sha256": "2617c9a73c323e6fa56b76970e8c86e0603adf5ca6c38617793db12037b5e498",
+      "size": 654
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "560694c3cbf50cca98dea60d1f4a85d8007290bcd550733191207528c310dd92",
+      "size": 130
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "bfd2cf88824a288f4bdd9ef34365374f579c6b0ef0ee5d5c661c6cb47c27dc2e",
+      "size": 250
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "afcd848730724f7aef994ee413e75311abd3c2ee25696b40ac8d967e70824df9",
+      "size": 301
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "c529a2cbf5482c2134399a514ef3399edd9d45bcc7eb4811129735a6772474be",
+      "size": 184
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "f513c9516364d9adc73c48bdfecafeccf998cbee0ab89d7e24e4f55aad0fb08b",
+      "size": 97
+    },
+    {
+      "path": "README.md",
+      "sha256": "e0394dffe12b383cd013c7c4ff8a218b3e6f09aa62dd071620dcfb9218d9c12c",
+      "size": 2471
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "a971133663eb2acfe0940827a61999c9fe1042220353234e128e2503267cd44a",
+      "size": 371
+    },
+    {
+      "path": "THREAT_MODEL.md",
+      "sha256": "cfcaf3bc831b0e7f43648864c3508dca3855a6f514c3557592db75f1826ad562",
+      "size": 751
+    },
+    {
+      "path": "TRADEMARKS.md",
+      "sha256": "e220fd675152f06845b60e0ac43b5b707be7babad9bd16f845153e576d340027",
+      "size": 291
+    },
+    {
+      "path": "compose.yaml",
+      "sha256": "a1db6d6c77afcef8bed6caaecd31e9e8d66ad8e3fbcce890928ccf8126b0caa6",
+      "size": 156
+    },
+    {
+      "path": "dist/nexus_redfox-0.2.0-py3-none-any.whl",
+      "sha256": "f513d9bfd70a13e1d7d967e299979036872c25b616852b6a469e7fe6fc8195a9",
+      "size": 286958
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "faaf4e5aeed9ce8363e4a600706646b5e8902bf62c84ae1b8eb47549b2d729db",
+      "size": 523
+    },
+    {
+      "path": "docs/release.md",
+      "sha256": "ebe3fb183112fd2ea8f191ef90813bc5a78d6396b1a9b7efb1f3f96252a3fb12",
+      "size": 261
+    },
+    {
+      "path": "docs/roadmap.md",
+      "sha256": "4a2d08ab2e7cab37922f9106ab28e6db0e2c110bd190456eb3fc673770b38a22",
+      "size": 238
+    },
+    {
+      "path": "examples/sample_project/main.py",
+      "sha256": "1d5339a4a8e75b6c09061ce3a12ec95d5aa7613b91f44321989dde9618dc7620",
+      "size": 145
+    },
+    {
+      "path": "examples/sample_project/package.json",
+      "sha256": "d4099da1cf64fd0c887bf3dd2473f1d447e865744a0c8a82821f44f1b467fbbc",
+      "size": 76
+    },
+    {
+      "path": "nexus/__init__.py",
+      "sha256": "0ba880b9cdbdf48bd134fc16f1930457806ab97eab10d78927526cc7acbef5bd",
+      "size": 50
+    },
+    {
+      "path": "nexus/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "size": 47
+    },
+    {
+      "path": "nexus/agent.py",
+      "sha256": "1a59f60d142aefa23338cc22407be8e4cbd1b6fe430f623370f7465a4245c026",
+      "size": 1458
+    },
+    {
+      "path": "nexus/capsule.py",
+      "sha256": "65c952388803ef830b799f22be29aecbd1f5ea5f8ed4b0be7007e63cdead49e1",
+      "size": 2477
+    },
+    {
+      "path": "nexus/cli.py",
+      "sha256": "8bb68cf2d48e6545f6ee01aa8c5b74c69511c33f324d1f939bc43b89f61d9ef6",
+      "size": 8722
+    },
+    {
+      "path": "nexus/cli_helpers.py",
+      "sha256": "d4e0377ce119d20d377ec35d472cbd7138ffebd3df034b895bf4eb0ed80cd38a",
+      "size": 1153
+    },
+    {
+      "path": "nexus/config.py",
+      "sha256": "66a8801d824bfdfdef4b1a102a50497343bf2f7c0add9ddece4634bab41b2b69",
+      "size": 1550
+    },
+    {
+      "path": "nexus/data/cwe_catalog.json",
+      "sha256": "62e270982dd6af8de80a1eb3721b30e0957c6cbae75e15336fe97af8f1f016c3",
+      "size": 400033
+    },
+    {
+      "path": "nexus/data/languages.json",
+      "sha256": "505abfc0beb72b6eb4d9ff291037305fca4fa21dcc412c6b565196cd62f5feec",
+      "size": 432329
+    },
+    {
+      "path": "nexus/data/policy_controls.json",
+      "sha256": "113f295ff1c0256ef467053038388baaad728bb665dfa60897540338fcb655fa",
+      "size": 162315
+    },
+    {
+      "path": "nexus/data/remediation_playbook.json",
+      "sha256": "6031a0b0d78ad5b9689552f7d119be94ef420e5c1448d0750a4c9ea6ddbc50cd",
+      "size": 9809402
+    },
+    {
+      "path": "nexus/data/rulepack.json",
+      "sha256": "410a8a7aeccd05a9055bd847760919d042db6156c5ad3465db0ca9d6f5f6a197",
+      "size": 1185717
+    },
+    {
+      "path": "nexus/errors.py",
+      "sha256": "fb25107246deb6e816da903b73a5c71655ef8fc84738d824aca6b77bf0c40b6c",
+      "size": 122
+    },
+    {
+      "path": "nexus/gitops.py",
+      "sha256": "fb1667818e0c488ab95b739fa9cb07307717dc2a9e62e797303125b069d11b87",
+      "size": 567
+    },
+    {
+      "path": "nexus/graph.py",
+      "sha256": "96f06e8c1d7d4da148a9bba310e2ec7a68b55f4faaad8e2c9d6ed02d2eb3a453",
+      "size": 2897
+    },
+    {
+      "path": "nexus/indexer.py",
+      "sha256": "a42d10960d116e1eb6d7a27a81ff218fffce18ad4da22f7622333205fcf24768",
+      "size": 3167
+    },
+    {
+      "path": "nexus/manifest.py",
+      "sha256": "5df23e6ab2a41215267030ed6315ac38222058138a89116d7d2f1a9530c6a0b5",
+      "size": 1020
+    },
+    {
+      "path": "nexus/mcp.py",
+      "sha256": "427bd7c51e8fe5e2708855a1d49687dbda0b25f2b9f9e80c86ea509546d367b6",
+      "size": 2981
+    },
+    {
+      "path": "nexus/models.py",
+      "sha256": "f33efd2ebf84ce13d43519147a4199502cf12aecfba69336b37e8c9b5da6e806",
+      "size": 1502
+    },
+    {
+      "path": "nexus/playbook.py",
+      "sha256": "4576321ffba5c2579b4e68938f7653ec80700243b5189e498e16cb585832e4ed",
+      "size": 257
+    },
+    {
+      "path": "nexus/reports.py",
+      "sha256": "34ab2f887e7faa17610eb6df4195c9d1ff42e9d95a6102a1c6723d898b53efa3",
+      "size": 2626
+    },
+    {
+      "path": "nexus/rules.py",
+      "sha256": "1d33c4d56b78cbfd805a5fb9dca7b5e50e4df9d46f33b786c77cfd860ca7ccaa",
+      "size": 966
+    },
+    {
+      "path": "nexus/sbom.py",
+      "sha256": "0ab43a9532244b37af0a82d4179ba2f439d2125e6006afc2352ed460a099e961",
+      "size": 3571
+    },
+    {
+      "path": "nexus/scanner.py",
+      "sha256": "95ffd04ea25da46cc4fb7cb80ce8c80a8f37956fa2c11a800094e108dab0f4a6",
+      "size": 2468
+    },
+    {
+      "path": "nexus/utils.py",
+      "sha256": "432012c8d93d75cce94f0ff88ee34c9ec89186f897f4da4105938226425b8066",
+      "size": 3768
+    },
+    {
+      "path": "nexus/web.py",
+      "sha256": "11971fe7469105e55b7b324eb81792ee458de0231c36d2bc4befc4d576ce80d9",
+      "size": 2770
+    },
+    {
+      "path": "nexus/workflows.py",
+      "sha256": "e7e928855317180ad6b5d121875c7eefbae498e4f113122bf5bfeafc2b31cdd0",
+      "size": 945
+    },
+    {
+      "path": "nexus.bat",
+      "sha256": "584904ffc30b52b50ed680e1a2156501cf40466874026b9bff81d3bd50e664bc",
+      "size": 33
+    },
+    {
+      "path": "nexus.ps1",
+      "sha256": "b7970b0d772491e0e96a0280d30f8210269086a8cef006d07b1fae53edd1fcfe",
+      "size": 58
+    },
+    {
+      "path": "nexus.sh",
+      "sha256": "98c7c1b001bb5a83b64d303291f5ceaa6ec2fd7507e8b1ee6413c6ab28427eac",
+      "size": 52
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "6caabf9fa2f9704c142680384f07cd45393cf8f7098fb3a652da64421bada584",
+      "size": 716
+    },
+    {
+      "path": "tests/test_capsule.py",
+      "sha256": "1b7a81ef876e2c748e27c4c5be83d93e207be7b4e998086b369e8722100efb5f",
+      "size": 513
+    },
+    {
+      "path": "tests/test_graph.py",
+      "sha256": "9896717472283a5cf66c48bad183f5ed52f17d4b56a93152c353cedad6cb59ee",
+      "size": 601
+    },
+    {
+      "path": "tests/test_manifest.py",
+      "sha256": "d267f25119dfc1c3bf4f39d0230e3865cd3c58216fb78d800a5196da80876428",
+      "size": 551
+    },
+    {
+      "path": "tests/test_mcp.py",
+      "sha256": "09e9532ee7ceeec77fc85ac2c0a9e2576f76580b1f3ccfa2038d8991f057ff44",
+      "size": 345
+    },
+    {
+      "path": "tests/test_scanner.py",
+      "sha256": "99842d4235572981b9faa633618275202690379dd28395a6b8f6eb41710ee23b",
+      "size": 651
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "sha256": "c4c11fbedb6aa54e723820491dd90c18b7c430ec4a9681c061d3af4eae678a56",
+      "size": 514
+    },
+    {
+      "path": "web/app.js",
+      "sha256": "c9e8ea697ab8485313ddc6a6a6e61f8b1c334e6c6b00574a46aa9a90e081fa5b",
+      "size": 1420
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "6ce233d614cc1cebec75030e47264bc11f40d26cb14e10290aaaba224ecb76e5",
+      "size": 1217
+    },
+    {
+      "path": "web/styles.css",
+      "sha256": "9a94de1934ddadd3f8f0b4e0506f63fd04ab6970564e58518d01f927e61ccfde",
+      "size": 2172
+    }
+  ]
+}
