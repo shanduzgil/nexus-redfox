@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <!-- NEXUS-REDFOX-DISCOVERABILITY-V1 -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>NEXUS REDFOX — هوش کد و تحلیل امنیت نرم‌افزار</title>
+
+  <meta name="description" content="NEXUS REDFOX پروژه‌ای متن‌باز و Local-First برای هوش کد، تحلیل کد منبع، تحلیل وابستگی و بررسی امنیت نرم‌افزار است.">
+
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+
+  <link rel="canonical" href="https://shanduzgil.github.io/nexus-redfox/fa/">
+  <link rel="alternate" hreflang="en" href="https://shanduzgil.github.io/nexus-redfox/">
+  <link rel="alternate" hreflang="fa" href="https://shanduzgil.github.io/nexus-redfox/fa/">
+  <link rel="alternate" hreflang="x-default" href="https://shanduzgil.github.io/nexus-redfox/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NEXUS REDFOX — هوش کد و تحلیل امنیت نرم‌افزار">
+  <meta property="og:description" content="تحلیل کد، ساختار پروژه، وابستگی‌ها و بخش‌های حساس امنیتی با رویکرد Local-First.">
+  <meta property="og:url" content="https://shanduzgil.github.io/nexus-redfox/fa/">
+
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "name": "NEXUS REDFOX", "url": "https://shanduzgil.github.io/nexus-redfox", "sameAs": ["https://github.com/shanduzgil/nexus-redfox"], "inLanguage": "fa"}
+  </script>
+
+  
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#070a10;
+  --panel:#0e1420;
+  --panel2:#111a29;
+  --line:#233149;
+  --text:#f4f7ff;
+  --muted:#a9b6ca;
+  --accent:#7fd4ff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  line-height:1.75;
+}
+main{
+  width:min(1100px,calc(100% - 32px));
+  margin:auto;
+  padding:42px 0 80px;
+}
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-bottom:42px;
+  padding:12px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:var(--panel);
+}
+.nav a{
+  color:var(--text);
+  text-decoration:none;
+  padding:7px 10px;
+  border-radius:10px;
+}
+.hero{
+  padding:42px 0 35px;
+}
+.kicker{
+  color:var(--accent);
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  font-size:13px;
+}
+h1{
+  font-size:clamp(42px,8vw,82px);
+  letter-spacing:-3px;
+  line-height:1.02;
+  margin:12px 0;
+}
+h2{margin-top:48px}
+h3{margin-top:0}
+.lead{
+  color:var(--muted);
+  font-size:21px;
+  max-width:850px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:16px;
+}
+.card{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:22px;
+}
+a{
+  color:var(--accent);
+}
+.actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:25px;
+}
+.button{
+  display:inline-block;
+  text-decoration:none;
+  color:var(--text);
+  background:var(--panel2);
+  border:1px solid var(--line);
+  padding:10px 15px;
+  border-radius:12px;
+}
+footer{
+  color:var(--muted);
+  text-align:center;
+  margin-top:60px;
+  border-top:1px solid var(--line);
+  padding-top:25px;
+}
+code{
+  background:#0e1623;
+  padding:2px 6px;
+  border-radius:6px;
+}
+</style>
+
+</head>
+<body>
+<main>
+
+<nav class="nav">
+  <a href="https://shanduzgil.github.io/nexus-redfox/">English</a>
+  <a href="https://shanduzgil.github.io/nexus-redfox/fa/">فارسی</a>
+  <a href="https://github.com/shanduzgil/nexus-redfox">GitHub</a>
+  <a href="https://shanduzgil.github.io/nexus-redfox/use-cases.html">کاربردها</a>
+  <a href="https://shanduzgil.github.io/nexus-redfox/faq.html">پرسش‌های متداول</a>
+</nav>
+
+<section class="hero">
+  <div class="kicker">هوش کد · امنیت نرم‌افزار · Local-First</div>
+  <h1>🦊 NEXUS REDFOX</h1>
+  <p class="lead">
+    ابزار متن‌باز برای درک ساختار Codebase، ارتباط اجزا، وابستگی‌ها
+    و بخش‌های حساس امنیتی پروژه‌های نرم‌افزاری.
+  </p>
+</section>
+
+<section>
+  <h2>NEXUS REDFOX چیست؟</h2>
+
+  <p>
+    NEXUS REDFOX پروژه‌ای برای هوش کد و تحلیل امنیت نرم‌افزار است
+    که با رویکرد Local-First طراحی شده است.
+  </p>
+
+  <p>
+    هدف آن کمک به توسعه‌دهندگان و پژوهشگران امنیت برای درک بهتر
+    پروژه‌های پیچیده، بررسی روابط بین اجزا، تحلیل وابستگی‌ها،
+    نقشه‌برداری از پروژه و تمرکز روی نواحی مهم امنیتی است.
+  </p>
+</section>
+
+<section>
+  <h2>چه زمانی کاربرد دارد؟</h2>
+
+  <div class="grid">
+    <article class="card">
+      <h3>درک یک پروژه ناشناخته</h3>
+      <p>قبل از تغییر یک Codebase بزرگ، ساختار آن را بهتر بشناسید.</p>
+    </article>
+
+    <article class="card">
+      <h3>تحلیل امنیتی کد</h3>
+      <p>نواحی حساس را برای بررسی دقیق‌تر پیدا کنید.</p>
+    </article>
+
+    <article class="card">
+      <h3>تحلیل وابستگی</h3>
+      <p>رابطه و نقش وابستگی‌های پروژه را بررسی کنید.</p>
+    </article>
+
+    <article class="card">
+      <h3>نقشه پروژه</h3>
+      <p>ارتباط بین بخش‌های مختلف نرم‌افزار را بهتر درک کنید.</p>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>منابع رسمی</h2>
+  <p>
+    <a href="https://github.com/shanduzgil/nexus-redfox">مخزن GitHub</a> ·
+    <a href="https://github.com/shanduzgil/nexus-redfox/wiki">Wiki</a> ·
+    <a href="https://shanduzgil.github.io/nexus-redfox/">نسخه انگلیسی</a>
+  </p>
+</section>
+
+<footer>
+NEXUS REDFOX · پروژه متن‌باز هوش کد و تحلیل امنیت نرم‌افزار
+</footer>
+
+</main>
+</body>
+</html>

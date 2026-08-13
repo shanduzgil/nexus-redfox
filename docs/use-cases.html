@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- NEXUS-REDFOX-DISCOVERABILITY-V1 -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>NEXUS REDFOX Use Cases — Codebase &amp; Security Analysis</title>
+  <meta name="description" content="Practical NEXUS REDFOX use cases for codebase understanding, security analysis, dependency review, project graph analysis and pre-deployment investigation.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+
+  <link rel="canonical" href="https://shanduzgil.github.io/nexus-redfox/use-cases.html">
+
+  <link rel="alternate" hreflang="en" href="https://shanduzgil.github.io/nexus-redfox/">
+  <link rel="alternate" hreflang="fa" href="https://shanduzgil.github.io/nexus-redfox/fa/">
+  <link rel="alternate" hreflang="x-default" href="https://shanduzgil.github.io/nexus-redfox/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NEXUS REDFOX">
+  <meta property="og:title" content="NEXUS REDFOX Use Cases — Codebase &amp; Security Analysis">
+  <meta property="og:description" content="Practical NEXUS REDFOX use cases for codebase understanding, security analysis, dependency review, project graph analysis and pre-deployment investigation.">
+  <meta property="og:url" content="https://shanduzgil.github.io/nexus-redfox/use-cases.html">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="NEXUS REDFOX Use Cases — Codebase &amp; Security Analysis">
+  <meta name="twitter:description" content="Practical NEXUS REDFOX use cases for codebase understanding, security analysis, dependency review, project graph analysis and pre-deployment investigation.">
+
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "name": "NEXUS REDFOX", "alternateName": ["NEXUS REDFOX Security", "NEXUS REDFOX Code Intelligence", "NEXUS REDFOX Codebase Analysis"], "url": "https://shanduzgil.github.io/nexus-redfox", "sameAs": ["https://github.com/shanduzgil/nexus-redfox"]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "NEXUS REDFOX", "description": "Local-first code intelligence and security analysis platform.", "applicationCategory": "DeveloperApplication", "operatingSystem": "Cross-platform", "url": "https://shanduzgil.github.io/nexus-redfox", "sameAs": ["https://github.com/shanduzgil/nexus-redfox"]}
+  </script>
+
+  
+
+  
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#070a10;
+  --panel:#0e1420;
+  --panel2:#111a29;
+  --line:#233149;
+  --text:#f4f7ff;
+  --muted:#a9b6ca;
+  --accent:#7fd4ff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  line-height:1.75;
+}
+main{
+  width:min(1100px,calc(100% - 32px));
+  margin:auto;
+  padding:42px 0 80px;
+}
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-bottom:42px;
+  padding:12px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:var(--panel);
+}
+.nav a{
+  color:var(--text);
+  text-decoration:none;
+  padding:7px 10px;
+  border-radius:10px;
+}
+.hero{
+  padding:42px 0 35px;
+}
+.kicker{
+  color:var(--accent);
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  font-size:13px;
+}
+h1{
+  font-size:clamp(42px,8vw,82px);
+  letter-spacing:-3px;
+  line-height:1.02;
+  margin:12px 0;
+}
+h2{margin-top:48px}
+h3{margin-top:0}
+.lead{
+  color:var(--muted);
+  font-size:21px;
+  max-width:850px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:16px;
+}
+.card{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:22px;
+}
+a{
+  color:var(--accent);
+}
+.actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:25px;
+}
+.button{
+  display:inline-block;
+  text-decoration:none;
+  color:var(--text);
+  background:var(--panel2);
+  border:1px solid var(--line);
+  padding:10px 15px;
+  border-radius:12px;
+}
+footer{
+  color:var(--muted);
+  text-align:center;
+  margin-top:60px;
+  border-top:1px solid var(--line);
+  padding-top:25px;
+}
+code{
+  background:#0e1623;
+  padding:2px 6px;
+  border-radius:6px;
+}
+</style>
+
+</head>
+<body>
+<main>
+
+<nav class="nav">
+  <a href="https://shanduzgil.github.io/nexus-redfox/">NEXUS REDFOX</a>
+  <a href="https://shanduzgil.github.io/nexus-redfox/use-cases.html">Use Cases</a>
+  <a href="https://shanduzgil.github.io/nexus-redfox/code-intelligence.html">Code Intelligence</a>
+  <a href="https://shanduzgil.github.io/nexus-redfox/security-analysis.html">Security Analysis</a>
+  <a href="https://shanduzgil.github.io/nexus-redfox/project-graph.html">Project Graph</a>
+  <a href="https://shanduzgil.github.io/nexus-redfox/dependency-analysis.html">Dependency Analysis</a>
+  <a href="https://shanduzgil.github.io/nexus-redfox/faq.html">FAQ</a>
+  <a href="https://shanduzgil.github.io/nexus-redfox/glossary.html">Glossary</a>
+  <a href="https://github.com/shanduzgil/nexus-redfox">GitHub</a>
+</nav>
+
+
+<section class="hero">
+  <div class="kicker">Use Cases</div>
+  <h1>NEXUS REDFOX Use Cases</h1>
+  <p class="lead">
+    Practical situations where a local-first code intelligence and
+    security analysis workflow can help engineers understand a project.
+  </p>
+</section>
+
+<div class="grid">
+  <article class="card">
+    <h3>Understand an unfamiliar codebase</h3>
+    <p>
+      Map project structure and relationships before editing or extending software.
+    </p>
+  </article>
+
+  <article class="card">
+    <h3>Investigate security-sensitive code</h3>
+    <p>
+      Locate areas that deserve deeper security review and investigation.
+    </p>
+  </article>
+
+  <article class="card">
+    <h3>Review dependencies</h3>
+    <p>
+      Understand how dependencies participate in a project and how they connect
+      to other components.
+    </p>
+  </article>
+
+  <article class="card">
+    <h3>Analyze project architecture</h3>
+    <p>
+      Build a clearer mental model of project components and their relationships.
+    </p>
+  </article>
+
+  <article class="card">
+    <h3>Pre-deployment review</h3>
+    <p>
+      Inspect important code and project relationships before deployment.
+    </p>
+  </article>
+
+  <article class="card">
+    <h3>Security research workflows</h3>
+    <p>
+      Give authorized security research a structured view of source relationships
+      and potentially sensitive areas.
+    </p>
+  </article>
+</div>
+
+<footer>
+  NEXUS REDFOX · Open-source code intelligence and security analysis
+</footer>
+</main>
+</body>
+</html>

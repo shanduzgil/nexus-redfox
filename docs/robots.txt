@@ -1,0 +1,37 @@
+# NEXUS-REDFOX-DISCOVERABILITY-V1
+# NEXUS REDFOX crawler policy
+
+User-agent: *
+Allow: /
+
+# Public documentation should remain crawlable.
+Allow: /fa/
+Allow: /use-cases.html
+Allow: /code-intelligence.html
+Allow: /security-analysis.html
+Allow: /project-graph.html
+Allow: /dependency-analysis.html
+Allow: /faq.html
+Allow: /glossary.html
+Allow: /llms.txt
+
+# Do not crawl development/build artifacts.
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /.vscode/
+Disallow: /.idea/
+Disallow: /node_modules/
+Disallow: /vendor/
+Disallow: /build/
+Disallow: /dist/
+Disallow: /coverage/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /__pycache__/
+
+# Avoid duplicate query URLs.
+Disallow: /*?*
+
+# Public machine-readable discovery files.
+Sitemap: https://shanduzgil.github.io/nexus-redfox/sitemap-index.xml
+Sitemap: https://shanduzgil.github.io/nexus-redfox/sitemap.xml

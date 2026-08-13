@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://shanduzgil.github.io/nexus-redfox/</loc>
+    <lastmod>2026-08-13T01:59:08Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shanduzgil.github.io/nexus-redfox/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://shanduzgil.github.io/nexus-redfox/fa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shanduzgil.github.io/nexus-redfox/"/>
+  </url>
+  <url>
+    <loc>https://shanduzgil.github.io/nexus-redfox/code-intelligence/</loc>
+    <lastmod>2026-08-13T01:59:08Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shanduzgil.github.io/nexus-redfox/dependency-analysis/</loc>
+    <lastmod>2026-08-13T01:59:08Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shanduzgil.github.io/nexus-redfox/fa/</loc>
+    <lastmod>2026-08-13T01:59:08Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shanduzgil.github.io/nexus-redfox/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://shanduzgil.github.io/nexus-redfox/fa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shanduzgil.github.io/nexus-redfox/"/>
+  </url>
+  <url>
+    <loc>https://shanduzgil.github.io/nexus-redfox/faq/</loc>
+    <lastmod>2026-08-13T01:59:08Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shanduzgil.github.io/nexus-redfox/glossary/</loc>
+    <lastmod>2026-08-13T01:59:08Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shanduzgil.github.io/nexus-redfox/project-graph/</loc>
+    <lastmod>2026-08-13T01:59:08Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shanduzgil.github.io/nexus-redfox/security-analysis/</loc>
+    <lastmod>2026-08-13T01:59:08Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shanduzgil.github.io/nexus-redfox/use-cases/</loc>
+    <lastmod>2026-08-13T01:59:08Z</lastmod>
+  </url>
+</urlset>
